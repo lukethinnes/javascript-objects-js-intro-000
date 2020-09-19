@@ -5,5 +5,5 @@ function updatePlaylist {
 }
 
 function removeFromPlaylist {
-  
+
 }
