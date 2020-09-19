@@ -1,4 +1,4 @@
-var playlist = { Harry Case: "In A Mood", Free Music: "Pube's Lament", Oariana: "A Pear In The Wind"}
+var playlist = { harrycase: "In A Mood", freemusic: "Pube's Lament", oariana: "A Pear In The Wind"}
 
 function updatePlaylist (targetObject, updatesObject) {
   return Object.assign({}, targetObject, updatesObject)
