@@ -1,9 +1,9 @@
-var playlist = { harrycase: "In A Mood", freemusic: "Pube's Lament", oariana: "A Pear In The Wind"}
+var playlist = { artistName, songTitle }
 
 function updatePlaylist (playlist, artistName, songTitle) {
   return Object.assign({}, playlist, artistName, songTitle)
 }
 
-function removeFromPlaylist () {
+function removeFromPlaylist (playlist, artistName) {
   delete playlist.oariana
 }
